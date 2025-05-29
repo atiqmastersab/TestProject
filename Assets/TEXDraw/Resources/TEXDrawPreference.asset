@@ -49,10 +49,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 22c23c08b4628c04b8592b9309584e15, type: 2}
   - {fileID: 11400000, guid: 4578b568985c89d428f612ba3325c88c, type: 2}
   - {fileID: 11400000, guid: 203e3a1ca102fc44da54f0a3bd32e5e7, type: 2}
+  - {fileID: 11400000, guid: 1323d8ad659abf849b11f54b7753940b, type: 2}
+  - {fileID: 11400000, guid: a7fdaf016765a194dbe19065a30226b3, type: 2}
+  - {fileID: 11400000, guid: 134bf291c1ad55449b027f45cf2e9408, type: 2}
+  - {fileID: 11400000, guid: 14f0cfade50d0c445af75d2abe0d58ae, type: 2}
+  - {fileID: 11400000, guid: c34690b2618de184dbdcfba6633c5a34, type: 2}
   - {fileID: 11400000, guid: 2281e009173047241917f55e92b405e2, type: 2}
   - {fileID: 11400000, guid: 4be6ceb1b3de2c14eb0d897458618931, type: 2}
   - {fileID: 11400000, guid: 9cb7d255bceaad3469416d2bb70e59d6, type: 2}
   - {fileID: 11400000, guid: e3e2f5b554e30f04484d438efde8c922, type: 2}
+  - {fileID: 11400000, guid: b39ced5af4a0f9d479a58cf81ceaf286, type: 2}
+  - {fileID: 11400000, guid: efbf15bbbfce1394fa5f52c84f34f368, type: 2}
   - {fileID: 11400000, guid: 77774f88cd0325949be01c4001f35c2e, type: 2}
   configuration: {fileID: 11400000, guid: dd026dbb7bdb46842916dd81de3943bd, type: 2}
   ConfigIDs:
@@ -87,10 +94,17 @@ MonoBehaviour:
   - cmff
   - cmfi
   - cmu
+  - kala
+  - kalpurush
+  - lapa
+  - lapu
+  - nsbr
   - opens
   - opensb
   - opensbi
   - opensi
+  - semj
+  - sutomj
   - iconic
   FontIDs:
   - -1 (Use Default Typefaces)
@@ -125,121 +139,193 @@ MonoBehaviour:
   - 28 - cmff.ttf
   - 29 - cmfi.ttf
   - 30 - cmu.ttf
-  - 31 - opens.ttf
-  - 32 - opensb.ttf
-  - 33 - opensbi.ttf
-  - 34 - opensi.ttf
-  - 35 - iconic.ttf
+  - 31 - kala.ttf
+  - 32 - kalpurush.ttf
+  - 33 - lapa.ttf
+  - 34 - lapu.ttf
+  - 35 - nsbr.ttf
+  - 36 - opens.ttf
+  - 37 - opensb.ttf
+  - 38 - opensbi.ttf
+  - 39 - opensi.ttf
+  - 40 - semj.ttf
+  - 41 - sutomj.ttf
+  - 42 - iconic.ttf
   FontIDsGUI:
   - m_Text: -1 (Use Default Typefaces)
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "-1 (Use Default Typefaces)\u200B"
   - m_Text: 0 - cmex.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "0 - cmex.ttf\u200B"
   - m_Text: 1 - cmmi.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "1 - cmmi.ttf\u200B"
   - m_Text: 2 - cmsy.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "2 - cmsy.ttf\u200B"
   - m_Text: 3 - msam.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "3 - msam.ttf\u200B"
   - m_Text: 4 - msbm.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "4 - msbm.ttf\u200B"
   - m_Text: 5 - cmbsy.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "5 - cmbsy.ttf\u200B"
   - m_Text: 6 - cmmib.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "6 - cmmib.ttf\u200B"
   - m_Text: 7 - stmary.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "7 - stmary.ttf\u200B"
   - m_Text: 8 - wasy.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "8 - wasy.ttf\u200B"
   - m_Text: 9 - cmbx.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "9 - cmbx.ttf\u200B"
   - m_Text: 10 - cmr.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "10 - cmr.ttf\u200B"
   - m_Text: 11 - cmb.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "11 - cmb.ttf\u200B"
   - m_Text: 12 - cmbxsl.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "12 - cmbxsl.ttf\u200B"
   - m_Text: 13 - cmbxti.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "13 - cmbxti.ttf\u200B"
   - m_Text: 14 - cmcsc.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "14 - cmcsc.ttf\u200B"
   - m_Text: 15 - cmsl.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "15 - cmsl.ttf\u200B"
   - m_Text: 16 - cmti.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "16 - cmti.ttf\u200B"
   - m_Text: 17 - cmss.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "17 - cmss.ttf\u200B"
   - m_Text: 18 - cmssbx.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "18 - cmssbx.ttf\u200B"
   - m_Text: 19 - cmssdc.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "19 - cmssdc.ttf\u200B"
   - m_Text: 20 - cmssi.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "20 - cmssi.ttf\u200B"
   - m_Text: 21 - cmtt.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "21 - cmtt.ttf\u200B"
   - m_Text: 22 - cmitt.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "22 - cmitt.ttf\u200B"
   - m_Text: 23 - cmsltt.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "23 - cmsltt.ttf\u200B"
   - m_Text: 24 - cmtcsc.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "24 - cmtcsc.ttf\u200B"
   - m_Text: 25 - cmtex.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "25 - cmtex.ttf\u200B"
   - m_Text: 26 - cmvtt.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "26 - cmvtt.ttf\u200B"
   - m_Text: 27 - cmdunh.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "27 - cmdunh.ttf\u200B"
   - m_Text: 28 - cmff.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "28 - cmff.ttf\u200B"
   - m_Text: 29 - cmfi.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
+    m_TextWithWhitespace: "29 - cmfi.ttf\u200B"
   - m_Text: 30 - cmu.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
-  - m_Text: 31 - opens.ttf
+    m_TextWithWhitespace: "30 - cmu.ttf\u200B"
+  - m_Text: 31 - kala.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
-  - m_Text: 32 - opensb.ttf
+    m_TextWithWhitespace: "31 - kala.ttf\u200B"
+  - m_Text: 32 - kalpurush.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
-  - m_Text: 33 - opensbi.ttf
+    m_TextWithWhitespace: "32 - kalpurush.ttf\u200B"
+  - m_Text: 33 - lapa.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
-  - m_Text: 34 - opensi.ttf
+    m_TextWithWhitespace: "33 - lapa.ttf\u200B"
+  - m_Text: 34 - lapu.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
-  - m_Text: 35 - iconic.ttf
+    m_TextWithWhitespace: "34 - lapu.ttf\u200B"
+  - m_Text: 35 - nsbr.ttf
     m_Image: {fileID: 0}
     m_Tooltip: 
-  FontIndexs: ffffffff000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000
+    m_TextWithWhitespace: "35 - nsbr.ttf\u200B"
+  - m_Text: 36 - opens.ttf
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "36 - opens.ttf\u200B"
+  - m_Text: 37 - opensb.ttf
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "37 - opensb.ttf\u200B"
+  - m_Text: 38 - opensbi.ttf
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "38 - opensbi.ttf\u200B"
+  - m_Text: 39 - opensi.ttf
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "39 - opensi.ttf\u200B"
+  - m_Text: 40 - semj.ttf
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "40 - semj.ttf\u200B"
+  - m_Text: 41 - sutomj.ttf
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "41 - sutomj.ttf\u200B"
+  - m_Text: 42 - iconic.ttf
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "42 - iconic.ttf\u200B"
+  FontIndexs: ffffffff000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a000000

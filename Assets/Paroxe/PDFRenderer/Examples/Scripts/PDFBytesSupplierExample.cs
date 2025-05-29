@@ -1,11 +1,17 @@
-﻿using UnityEngine;
+﻿using System.Text;
+using UnityEngine;
 
 namespace Paroxe.PdfRenderer.Examples
 {
     public class PDFBytesSupplierExample : MonoBehaviour
     {
+        public string myText;
         public byte[] GetPDFDataBytes()
         {
+            if (myText != null && myText.Length > 0)
+            {
+                return Encoding.UTF8.GetBytes(myText);
+            }
             return PDFSampleByteArray;
         }
 

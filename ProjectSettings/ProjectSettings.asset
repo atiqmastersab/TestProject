@@ -817,7 +817,10 @@ PlayerSettings:
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
   webWasm2023: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: TEXDRAW_TMP
+    Standalone: TEXDRAW_TMP
+    WebGL: TEXDRAW_TMP
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
