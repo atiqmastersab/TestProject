@@ -4,20 +4,16 @@ using UnityEngine.UI;
 
 public class PdfRenderer : MonoBehaviour
 {
-    public RenderTexture pdfRenderer;
+    public RenderTexture pdfRenderTexture;
     public string filePath;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         PDFDocument pdfDocument = new PDFDocument(filePath, "");
-        Texture2D tex = pdfDocument.Renderer.RenderPageToTexture(PDFPage.LoadPageAsync(pdfDocument, 0), pdfRenderer.width, pdfRenderer.height);
-
+        Texture2D tex = pdfDocument.Renderer.RenderPageToTexture(new PDFPage(pdfDocument, 2), pdfRenderTexture.width, pdfRenderTexture.height);
+        Graphics.Blit(tex, pdfRenderTexture);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
